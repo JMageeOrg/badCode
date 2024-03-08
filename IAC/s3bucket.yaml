@@ -14,6 +14,11 @@ Resources:
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: error.html
+      Tags:
+        - Key: yor_trace
+          Value: 9055c699-9192-43c7-87a9-62a6cda51120
+        - Key: jmtags
+          Value: "12345"
     DeletionPolicy: Retain
 Outputs:
   WebsiteURL:
