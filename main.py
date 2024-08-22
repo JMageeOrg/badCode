@@ -3,7 +3,7 @@ from cryptography.hazmat.primitives.asymmetric import rsa, dsa
 from Crypto.PublicKey import DSA
 from socket import socket, AF_INET, SOCK_STREAM, SOCK_NONBLOCK
 
-# Set a file write by others.
+# Set a file write by others by Jonny Magee.
 temp_file = "/tmp/foo.txt"
 os.chmod(temp_file, stat.S_IWOTH)
 
