@@ -18,7 +18,7 @@ jobs:
       PRISMA_API_URL: https://api0.prismacloud.io/
     steps:
       - name: Checkout repo
-        uses: actions/checkout@master
+        uses: actions/checkout@master@v4
       - name: Run Prisma Cloud action
         id: Checkov
         uses: bridgecrewio/checkov-action@master
