@@ -24,7 +24,6 @@ jobs:
         uses: bridgecrewio/checkov-action@master
         with:
           directory: '.'
-          soft_fail: true
           api-key: ${{ secrets.BC_API_KEY }}
       - name: Expose report
         uses: actions/upload-artifact@v3
